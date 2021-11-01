@@ -74,7 +74,7 @@ export default function Home() {
             {chartState ==='bar' && <ChartBar data={data} color1={color1} color2={color2} />}
             {chartState ==='funnel' && <ChartFunnel data={data} color1={color1} color2={color2} />}
             </>
-            : <h2 className='text-white'>loading...</h2>
+            : <h2 className='text-white'>we are firing engines 🛩</h2>
           }
 
         </div>
